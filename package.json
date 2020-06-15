@@ -1,0 +1,78 @@
+{
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@progress/kendo-react-layout": "^3.12.0",
+    "@progress/kendo-theme-material": "^3.11.1",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^6.8.0",
+    "flexboxgrid": "^6.3.1",
+    "hammerjs": "^2.0.8",
+    "lightweight-charts": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "styled-components": "^4.1.3",
+    "typescript-collections": "^1.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@hot-loader/react-dom": "^16.8.2",
+    "@types/redux-immutable-state-invariant": "^2.1.1",
+    "@types/styled-components": "^4.1.10",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^3.4.2",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "prettier": "^2.0.4",
+    "react-hot-loader": "^4.7.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.1.3",
+    "ts-loader": "^6.2.2",
+    "typescript": "~3.8.3",
+    "webpack": "^4.36.0",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "main": "index.tsx",
+  "name": "kendo-react-typescript",
+  "scripts": {
+    "run": "babel-node ./node_modules/webpack/bin/webpack",
+    "start": "webpack-dev-server --config ./webpack.config.dev.js"
+  },
+  "version": "1.0.0"
+}
